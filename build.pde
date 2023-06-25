@@ -64,7 +64,7 @@ void draw() {
 	PGraphics tmp = null;
 
 	if (record) {
-		tmp = beginRecord(PDF, "render-######_"+seed+".pdf");
+		tmp = beginRecord(PDF, "/render/render-######_"+seed+".pdf");
 	}
 
 	if (tmp == null) {
